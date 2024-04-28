@@ -17,6 +17,15 @@ body {
 
 }
 
+.link-title {
+
+    color: var(--preto);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 5%;
+    
+}
+
 .toolbar{   
     height: 80px;
 }
