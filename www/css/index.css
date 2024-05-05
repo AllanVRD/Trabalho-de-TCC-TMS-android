@@ -155,3 +155,14 @@ body {
     font-weight: 600;
 
 }
+
+.mapbox {
+
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 450px;
+    width: 520px;
+
+}
