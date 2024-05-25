@@ -51,7 +51,7 @@
             </div>
 
             <!-- Initial Page, "data-name" contains page name -->
-            <div data-name="index" class="page color-theme-blue">
+            <div data-name="home" class="page color-theme-blue">
 
                 <!-- Top Navbar -->
                 <div class="top-nav">
@@ -74,30 +74,63 @@
                             <span>Nome do Perfil</span>
                         </div>
                     </div> 
-                    <div class="area-chart area-chart-with-legend">
-                        <div class="el-page">
-                            <div class="el-chart">
-                                <div class="el-chart-container">
-                                    <svg width="800" height="400">
-                                        <path stroke="#0f0" fill="none" d="M0,140 L80,140 L160,60 L286,110"></path>
+                    <div class="card card-raised card-outline">
+                        <div class="card-header"><b>Números de entregas na semana</b></div>
+                    <div class="area-chart area-chart-with-legend" id="main-page-area-chart">                        
+                        <div class="card-content">
+                        <div class="area-chart-page">
+                            <div class="area-chart">
+                                <div class="area-chart-container">
+                                    <svg width="640" height="320" viewBox="0 0 640 320" preserveAspectRatio="none">                                        
+                                        <polygon fill="#444C38" fill-rule="evenodd" points="0 211.70896785109983 213.33333333333331 62.808798646362106 426.66666666666663 43.85786802030458 640 0 640 320 0 320"></polygon>
+                                        <polygon fill="#00FF00" fill-rule="evenodd" points="0 211.70896785109983 213.33333333333331 116.95431472081219 426.66666666666663 179.22165820642977 640 166.22673434856176 640 320 0 320"></polygon>
+                                        <polygon fill="#FFFF00" fill-rule="evenodd" points="0 265.8544839255499 213.33333333333331 157.56345177664974 426.66666666666663 251.2351945854484 640 294.5516074450085 640 320 0 320"></polygon>
+                                        <line data-index="0" fill="#000" x1="0" y1="0" x2="0" y2="320"></line>
+                                        <line data-index="1" fill="#000" x1="213.33333333333331" y1="0" x2="213.33333333333331" y2="320"></line>
+                                        <line data-index="2" fill="#000" x1="426.66666666666663" y1="0" x2="426.66666666666663" y2="320" class=""></line>
+                                        <line data-index="3" fill="#000" x1="640" y1="0" x2="640" y2="320" class=""></line>                                        
                                     </svg>
                                 </div>
-                                <div class="el-chart-legend">
-                                    <div class="el-chart-legend-item">Segunda</div>
-                                    <div class="el-chart-legend-item">Terça</div>
-                                    <div class="el-chart-legend-item">Quarta</div>
-                                    <div class="el-chart-legend-item">Quinta</div>
-                                    <div class="el-chart-legend-item">Sexta</div>
-                                    <div class="el-chart-legend-item">Sábado</div>
-                                    <div class="el-chart-legend-item">Domingo</div>
+                                <div class="area-chart-axis">
+                                    <span>
+                                        <span>Segunda</span>
+                                    </span>
+                                    <span>
+                                        <span>Terça</span>
+                                    </span>
+                                    <span>
+                                        <span>Quarta</span>
+                                    </span>
+                                    <span>
+                                        <span>Quinta</span>
+                                    </span>
+                                    <span>
+                                        <span>Sexta</span>
+                                    </span>
+                                    <span>
+                                        <span>Sábado</span>
+                                    </span>
+                                    <span>
+                                        <span>Domingo</span>
+                                    </span>
                                 </div>
+                                <div class="area-chart-legend">
+                                    <button data-index="0" class="area-chart-legend-item area-chart-legend-button" type="">
+                                        <span style="background-color: #444C38"></span>Total de Entregas</button>
+                                    <button data-index="1" class="area-chart-legend-item area-chart-legend-button" type="">
+                                        <span style="background-color: #00FF00"></span>Entregas Realizadas</button>                                    
+                                    <button data-index="2" class="area-chart-legend-item area-chart-legend-button" type="">
+                                        <span style="background-color: #ff0"></span>Devoluções</button></div>
+                                <div class="card-footer"><br></div>                                
+                            </div>
                             </div>
                         </div>
                     </div>       
                 </div>
             </div>
         </div>
-    </div>    
+    </div>  
+    
     <!-- Path to Framework7 Library Bundle JS-->
     <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
 	<!-- jQuery -->
