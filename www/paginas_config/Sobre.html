@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Cargo Tracer</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/aparencia.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view">
+
+            
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="fonte" class="page color-theme-blue">
+
+               
+
+                <!-- Scrollable page content -->
+                <div class="page-content"> 
+                    
+                    <button style="display: flex; margin-left: 3%; text-decoration: none; width: 6%; font-size: 30px; justify-content: center; border-radius: 50%; margin-top: 5%;"><a href="/configuracao/" style="color: black;"><span class="mdi mdi-arrow-left"></span></a></button>
+
+                    <br><br>
+                    <div class="card card-raised card-outline">
+                        <div class="card-header"><b>Sobre</b></div>
+                            <div class="card-content">
+                                <title>Aplicativo CargoTracer - TCC de Desenvolvimento de Sistemas</title>
+                                    <style>
+                                        body {
+                                            font-family: "Bebas Neue", sans-serif;
+                                            line-height: 1.6;
+                                            margin: 0;
+                                            padding: 0;
+                                            color: #333;
+                                        }
+                                        .container {
+                                            max-width: 800px;
+                                            margin: 30px auto;
+                                            padding: 20px;
+                                            box-shadow: 0 0 10px rgba(ss, 0, 0, 0.1);
+                                        }
+                                        h1, h2, h3 {
+                                            color: black;
+                                        }
+                                        h1 {
+                                            text-align: center;
+                                            margin-bottom: 20px;
+                                        }
+                                        ul {
+                                            list-style: none;
+                                            padding: 0;
+                                        }
+                                        ul li {
+                                            background: #e9ecef;
+                                            margin: 5px 0;
+                                            padding: 10px;
+                                            border-radius: 5px;
+                                        }
+                                    </style>
+                                </head>
+                                <body>
+                                    <div class="container">
+                                        <h1>Aplicativo CargoTracer - Solução Inovadora para Roteirização de Entregas para Caminhões</h1>
+                                        <p>O desenvolvimento do aplicativo CargoTracer surgiu como um projeto de Trabalho de Conclusão de Curso (TCC) no curso de Desenvolvimento de Sistemas, sendo idealizado e executado por três estudantes: Allan José,
+                                             Fernando de Carvalho e Mateus Martins. Nosso objetivo foi criar uma solução prática e eficiente para o problema que empresas de pequeno e médio sofrem ao tentarem monitorar suas entregas de forma não automatizada.</p>
+
+                                        <h2>Funcionalidades Principais</h2>
+                                        <ul>
+                                            <li><strong>Interface Amigável</strong>: Desenvolvemos uma interface intuitiva para garantir uma experiência de usuário agradável e acessível.</li>
+                                            <li><strong>Roteirização</strong>: Roteirização especifica para caminhões, coisa que nenhum outro aplicativo faz.</li>
+                                            <li><strong>Emissão de CT-es</strong>: Emissão de CT-es automatizada, agilizando os procedimentos de finalização das entregas do dia.</li>
+                                            <li><strong>Integração com Serviços Externos</strong>: Integração com APIs e serviços para ampliar as capacidades do aplicativo e oferecer mais valor aos usuários.</li>
+                                        </ul>
+
+                                        <h2>Tecnologias Utilizadas</h2>
+                                        <p>As principais tecnologias empregadas incluem:</p>
+                                        <ul>
+                                            <li><strong>Linguagens de Programação</strong>: Javascript.</li>
+                                            <li><strong>Frameworks e Bibliotecas</strong>: Jquery, Apache Cordova e Framework7.</li>
+                                            <li><strong>Banco de Dados</strong>: MySQL.</li>
+                                        </ul>
+
+                                        <h2>Desafios e Soluções</h2>
+                                        <p>Durante o desenvolvimento, enfrentamos desafios como Incompatibilidade de Api's e busca por metodos compativeis, que superamos através de Estudo e Disciplina.</p>
+
+                                        <h2>Conclusão e Perspectivas Futuras</h2>
+                                        <p>O aplicativo CargoTracer não só cumpriu os requisitos do nosso TCC, como também abriu portas para futuras melhorias e expansões. Planejamos continuar o desenvolvimento com base no feedback dos usuários e explorar novas funcionalidades que possam agregar ainda mais valor.</p>
+                                        <p>Este projeto representou uma oportunidade de aplicar na prática os conhecimentos adquiridos durante o curso, reforçando nossas habilidades técnicas e colaborativas, e nos preparando para os desafios profissionais que estão por vir.</p>
+
+                                        <h2>Equipe de Desenvolvimento</h2>
+                                        <ul>
+                                            <li>Allan José</li>
+                                            <li>Fernando de Carvalho</li>
+                                            <li>Mateus Martins</li>
+                                        </ul>
+
+                                        <p>Agradecemos a todos os nossos orientadores e colegas que contribuíram para a realização deste projeto.</p>
+                                    </div>
+                            </div>
+                            <div class="card-footer"></div>
+                    </div> <br><br>
+                </div>
+            </div>
+        </div>  
+    
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>

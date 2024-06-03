@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Cargo Tracer</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view">
+
+            
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="fonte" class="page color-theme-blue">
+
+               
+
+                <!-- Scrollable page content -->
+                <div class="page-content"> 
+                    
+                    <button  style="display: flex; margin-left: 3%; text-decoration: none; width: 6%; font-size: 30px; justify-content: center; border-radius: 50%; margin-top: 5%;"><a href="/configuracao/" style="color: black;"><span class="mdi mdi-arrow-left"></span></a></button>
+
+                    <br><br><br>
+                    <div class="card card-raised card-outline">
+                        <div class="card-header"><b>Tamanho da Fonte</b></div>
+                            <div class="card-content"><br><br><br>
+                                    <div class="list list-strong-android list-outline-android simple-list">
+                                        <ul>
+                                        <li>
+                                            <div>
+                                            <i class="mdi mdi-format-font-size-decrease" style="font-size: 24px;"></i>
+                                            </div>
+                                            <div style="width: 100%; margin: 0 16px">
+                                            <div class="range-slider range-slider-init color-black" data-label="true">
+                                                <input type="range" min="0" max="100" step="1" value="50" />
+                                            </div>
+                                            </div>
+                                            <div>
+                                            <i class="mdi mdi-format-font-size-increase" style="font-size: 36px;"></i>
+                                            </div>
+                                        </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="card-footer"><br><br><br></div>  
+                    </div>
+                </div>
+            </div>
+        </div>  
+    
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>

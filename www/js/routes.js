@@ -94,6 +94,139 @@ var app = new Framework7({
 		},
 	  }
     },
+    {
+      path: '/tamanhofonte/',
+      url: 'paginas_config/Tamanho_da_Fonte.html',
+      animate: false,
+	  on: {
+		pageBeforeIn: function (event, page) {
+		// fazer algo antes da página ser exibida
+		},
+		pageAfterIn: function (event, page) {
+		// fazer algo depois da página ser exibida
+		},
+		pageInit: function (event, page) {
+		// fazer algo quando a página for inicializada
+		},
+		pageBeforeRemove: function (event, page) {
+		// fazer algo antes da página ser removida do DOM
+		},
+	  }
+    },
+    {
+      path: '/aparencia/',
+      url: 'paginas_config/Aparencia.html',
+      animate: false,
+	  on: {
+		pageBeforeIn: function (event, page) {
+		// fazer algo antes da página ser exibida
+		},
+		pageAfterIn: function (event, page) {
+		// fazer algo depois da página ser exibida
+		},
+		pageInit: function (event, page) {
+		// fazer algo quando a página for inicializada
+		},
+		pageBeforeRemove: function (event, page) {
+		// fazer algo antes da página ser removida do DOM
+		},
+	  }
+    },
+    {
+      path: '/permissoes/',
+      url: 'paginas_config/Permissões_do_App.html',
+      animate: false,
+	  on: {
+		pageBeforeIn: function (event, page) {
+		// fazer algo antes da página ser exibida
+		},
+		pageAfterIn: function (event, page) {
+		// fazer algo depois da página ser exibida
+		},
+		pageInit: function (event, page) {
+		// fazer algo quando a página for inicializada
+		},
+		pageBeforeRemove: function (event, page) {
+		// fazer algo antes da página ser removida do DOM
+		},
+	  }
+    },
+    {
+      path: '/Sobre/',
+      url: 'paginas_config/Sobre.html',
+      animate: false,
+	  on: {
+		pageBeforeIn: function (event, page) {
+		// fazer algo antes da página ser exibida
+		},
+		pageAfterIn: function (event, page) {
+		// fazer algo depois da página ser exibida
+		},
+		pageInit: function (event, page) {
+		// fazer algo quando a página for inicializada
+		},
+		pageBeforeRemove: function (event, page) {
+		// fazer algo antes da página ser removida do DOM
+		},
+	  }
+    },
+    {
+      path: '/Seguranca/',
+      url: 'paginas_config/Seguranca.html',
+      animate: false,
+	  on: {
+		pageBeforeIn: function (event, page) {
+		// fazer algo antes da página ser exibida
+		},
+		pageAfterIn: function (event, page) {
+		// fazer algo depois da página ser exibida
+		},
+		pageInit: function (event, page) {
+		// fazer algo quando a página for inicializada
+		},
+		pageBeforeRemove: function (event, page) {
+		// fazer algo antes da página ser removida do DOM
+		},
+	  }
+    },    
+    {
+      path: '/Termos/',
+      url: 'paginas_config/Termos_&_Condicoes.html',
+      animate: false,
+	  on: {
+		pageBeforeIn: function (event, page) {
+		// fazer algo antes da página ser exibida
+		},
+		pageAfterIn: function (event, page) {
+		// fazer algo depois da página ser exibida
+		},
+		pageInit: function (event, page) {
+		// fazer algo quando a página for inicializada
+		},
+		pageBeforeRemove: function (event, page) {
+		// fazer algo antes da página ser removida do DOM
+		},
+	  }
+    },    
+    {
+      path: '/politica/',
+      url: 'paginas_config/Politicas_de_Privacidade.html',
+      animate: false,
+	  on: {
+		pageBeforeIn: function (event, page) {
+		// fazer algo antes da página ser exibida
+		},
+		pageAfterIn: function (event, page) {
+		// fazer algo depois da página ser exibida
+		},
+		pageInit: function (event, page) {
+		// fazer algo quando a página for inicializada
+		},
+		pageBeforeRemove: function (event, page) {
+		// fazer algo antes da página ser removida do DOM
+		},
+	  }
+    },
   ],
   
   // ... other parameters

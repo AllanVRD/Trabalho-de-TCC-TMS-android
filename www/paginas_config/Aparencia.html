@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Cargo Tracer</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/aparencia.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view">
+
+            
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="fonte" class="page color-theme-blue">
+
+               
+
+                <!-- Scrollable page content -->
+                <div class="page-content"> 
+                    
+                    <button style="display: flex; margin-left: 3%; text-decoration: none; width: 6%; font-size: 30px; justify-content: center; border-radius: 50%; margin-top: 5%;"><a href="/configuracao/" style="color: black;"><span class="mdi mdi-arrow-left"></span></a></button>
+
+                    <br><br><br>
+                    <div class="card card-raised card-outline">
+                        <div class="card-header"><b>Aparência</b></div>
+                            <div class="card-content"><br><br>
+                                <span style="margin: 5%; font-weight: bolder; font-size: 18px;">Tema do App</span>
+                                <div style="display: flex;">
+                                    <button data-mode="light" title="Light mode" style="display: flex; width: 8%; justify-content: center; margin-top: 2%; margin-bottom: 2%; margin-left: 5%; border-radius: 30%;">
+                                    <i class="mdi mdi-white-balance-sunny" style="font-size: 30px; padding: 3px;"></i>
+                                    </button>
+                                    <button data-mode="dark" title="Dark mode" class="" style="display: flex; width: 8%; justify-content: center; margin: 2% 1%; border-radius: 30%;">
+                                    <i class="mdi mdi-moon-waning-crescent" style="font-size: 30px; padding: 3px;"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-footer"><br><br></div>  
+                    </div>
+                </div>
+            </div>
+        </div>  
+    
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>
